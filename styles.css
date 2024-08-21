@@ -697,13 +697,45 @@ nav ul li a:hover {
     border: 3px solid red;
     border-radius: 10%;
     padding: 5px 1px 1px 1px;
-    margin-left: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#personajere4 {
+    text-align: center;
+}
+
+#personajere4-2 {
+    text-align: center;
+}
+
+
+#personajere4-2 img {
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+}
+
+
+#personajere4-2 img:hover {
+    opacity: 1;
+
+}
+
+#personajere4 img {
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+}
+
+
+#personajere4 img:hover {
+    opacity: 1;
 
 }
 
 .caja-central-pag2 p {
     margin-bottom: 50px;
-
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
@@ -792,15 +824,21 @@ nav ul li a:hover {
 }
 
 .img-re4-ada {
-    padding: 100px 1px 1px 1px;
-    position: center;
+    display: inline-block;
+    margin-left: 35px;
 }
 
 
 .img-re4-fig {
-    padding: 210px 1px 10px 100px;
-    position: center;
+    padding-left: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+}
 
+#ada {
+    position: relative;
 }
 
 
@@ -850,15 +888,15 @@ nav ul li a:hover {
 
 
 a {
-    color: rgb(197, 62, 17); 
-    text-decoration: none; 
+    color: rgb(197, 62, 17);
+    text-decoration: none;
 
 }
 
 a:hover {
-    color: rgb(164, 30, 30); 
+    color: rgb(164, 30, 30);
 }
 
 a:visited {
-    color: #d70700; 
+    color: #d70700;
 }
